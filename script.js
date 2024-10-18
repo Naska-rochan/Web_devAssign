@@ -51,7 +51,7 @@ async function handleContactSubmit(event) {
 }
 
 async function submitToGoogleSheets(sheetName, data) {
-    const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwUkVbtv0xGevUdigk6yaemRvVdKFAsHVmfj8PgKh1_booqof4vvezjNvkZgyYt6EhM4A/exec';
     const formData = new FormData();
     formData.append('sheet', sheetName);
     
